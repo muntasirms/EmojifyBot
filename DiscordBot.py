@@ -4,7 +4,7 @@ import asyncio
 import opus_api
 from discord.ext import commands
 
-TOKEN = 'NTAxNTg2MDQyODQzODI0MTQ4.Dqbj5g.IEsBmP02xX7ohUrWtWqHsVmuR94'
+TOKEN = open('TOKEN', "r").readline()
 
 client = discord.Client()
 
